@@ -8,6 +8,5 @@ Rails.application.routes.draw do
     post 'addresses', to: 'users/registrations#create_address'
   end
 
-  get 'home/index'
   root 'home#index'
 end
